@@ -1,0 +1,59 @@
+html {
+  scroll-behavior: smooth;
+  font-family: 'Domine', serif;
+}
+body {
+  margin: 0 auto;
+  background: #f8f9fc;
+  font-family: auto !important;
+    /* margin-top: 6em !important;
+font-family: sans-serif !important; */
+  
+}
+%text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.banner-carousel{
+  background-color: #d0d0d0;
+}
+.view-all {
+  text-decoration: none !important;
+  color: black;
+  float: right;
+  padding: 3px;
+  font-size: 12px;
+}
+.MiniCarouselHeading {
+  padding: 12px 10px;
+  background: #dcdddd;
+  margin: 35px 0px 3px 0px;
+  border-top: 3px solid #241746;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.MiniCarouselTitle {
+  font-size: 15px;
+  color: #3a3b45!important;
+  font-weight: bold;
+}
+
+.moviesPage {
+  background: #f1f1f0;
+  text-align: center;
+  margin-top: 56px;
+  height: 1000px;
+}
+
+.makeStyles-avatar-2  {
+  background-color: #241746 !important;
+}
+.MuiButton-containedPrimary {
+  background-color: #241746 !important;
+}
+.MuiButton-contained {
+  color: white !important;
+  font-weight: bold;
+}

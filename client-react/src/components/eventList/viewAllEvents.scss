@@ -1,0 +1,44 @@
+.viewAllEvents  {
+    margin-top: 57px;
+}
+.singleEventContainer{
+    margin-bottom: 57px;
+}
+.row-viewall{
+    width :90%;
+    height:100%;
+    padding:10px;
+    cursor: pointer;
+}
+.viewall-card-body {
+    background-color: gainsboro;
+}
+
+.viewAllEvents{
+    display:grid;
+    grid-template-columns:repeat(4,auto);
+    grid-template-rows:auto;
+    grid-gap:1px;
+}
+.loader{
+    position:bottom;
+    
+}
+
+.singleClick{
+    cursor: pointer;
+}
+.viewEventsheading {
+    margin-top: 56px;
+    position: inherit;
+    background: #e4e4e4;
+    padding: 10px;
+    display: flex;
+}
+.viewEventsTitle {
+    font-size: 29px;
+}
+.viewEventsButton {
+    margin-top: 7px;
+    margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+.eventCarouselBody {
+  height: auto;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #e0e0e0;
+  padding: 0px 18px;
+}
+
+.event-card-date {
+  color: #ea0000;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.event-card-details {
+  margin: 0;
+  padding: 10px 10px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.event-loc {
+  color: gray;
+  margin-left: 14px;
+}
+

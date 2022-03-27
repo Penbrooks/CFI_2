@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../assets/fonts/Roboto-BoldItalic.ttf") format("ttf");
+}
+
+.app-header {
+  /* padding: 10px; */
+  /* background:#4285F4; */
+  background: #241746;
+  color: white;
+  height: 4em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.header-icon {
+  position: fixed;
+  &.cfiLogo {
+    width: 58px;
+    position: fixed;
+    padding: 5px;
+  }
+  &.cfiTitle {
+    width: 65px;
+    margin-left: 61px;
+  }
+  &.header-searchbar {
+    margin-left: 20px;
+  }
+}
+
+.nav-link.movies {
+  height: 4.375rem;
+  align-items: center;
+  padding: 0 0.75rem;
+  color: white;
+}
+
+/* Header Menu item css*/
+.menu-items {
+  margin-left: 30px;
+}
+
+.header-button {
+  background: none;
+  color: #b0b2cc;
+  border: none;
+  font-weight: 700;
+  padding: 11px 9px 11px 6px;
+  outline: none;
+  margin-left: 10px;
+  &:hover {
+    color: white;
+    background-color: #4b4b7e;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+}
+.menu-icon {
+  padding: 0px 5px;
+}
+
+.link-menu {
+  color: #b0b2cc;
+  text-decoration: none;
+  outline: none;
+}
+
+/* Login */
+.menu-items.login {
+  float: right;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-top: 5.5px;
+  background: #b0b2cc;
+  color: #241746 !important;
+  &:hover {
+    background: white;
+  }
+}
+
+button.header-button.login {
+  color: #241746 !important;
+  text-align: left;
+  outline: none;
+  padding-right: 18px;
+  &:hover {
+    background: white;
+    color: #241746 !important;
+  }
+}
+
